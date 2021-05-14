@@ -103,6 +103,7 @@ function createResultCard(isCorrectAnswer) {
     updatePointsDOM(10);
   } else {
     resultMessageElement.innerHTML = "You're WRONG :(";
+    pointsDisplayElement.innerHTML = ""
   }
 }
 function handleNextCard() {
